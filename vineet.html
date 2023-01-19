@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artical</title>
+    <style>
+        body {
+            background-image: url(https://images.pexels.com/photos/235986/pexels-photo-235986.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            /* background-color: #87d96c; */
+        }
+
+        header {
+            margin: 10px 60px;
+            padding: 10px 10px;
+        }
+
+        .bholu {
+
+            display: flex;
+            width: 55px;
+            margin: -10px 0px;
+            filter: invert(100);
+
+
+        }
+
+        .bholu:hover {
+            display: block;
+
+
+
+            cursor: pointer;
+        }
+
+
+        /* after this all about navigation bar */
+        .vinay {
+            background-color: none;
+            border-radius: 20px;
+
+        }
+
+        .vinay ul {
+            overflow: inherit;
+            margin: 0px -80px;
+
+
+
+        }
+
+        .vinay li {
+            float: left;
+            list-style: none;
+            margin: -7px 2px 0px 18px;
+            padding: 8px 21px;
+            color: white;
+
+        }
+
+        .vinay input {
+            float: right;
+            padding: 3px 10px;
+            margin: 5px 42px;
+            border-radius: 20px;
+            width: 108px;
+        }
+
+
+        .jat {
+            width: 30px;
+
+            cursor: pointer;
+            filter: invert(100%);
+
+        }
+
+        .jat {
+            float: right;
+            margin: -15px -42px;
+        }
+
+        .nitu {
+            color: white;
+        }
+
+
+        #Search:hover {
+            background-color: #90e8eb;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            cursor: pointer;
+        }
+
+        /* after this all about box and games */
+        .jaat {
+
+            width: 900px;
+            margin: 25px auto;
+            border: rgb(161, 160, 158);
+        }
+
+        .player {
+            color: white;
+            border: 5px solid rgb(232, 17, 17);
+            margin: 10px;
+            padding: 10px;
+            background-color: rgb(2, 0, 5);
+            border-radius: 20px;
+            /* background-image: url(/hellboy.jpg.jpg); */
+            /* background-size: 250px; */
+            /* background-position:center; */
+            /* background-repeat: repeat-x; */
+        }
+
+        #circket {
+
+            float: left;
+            width: 45%;
+            transition: all 0.3s ease-in-out;
+        }
+
+        #circket:hover {
+            background-image: url(https://media.istockphoto.com/id/1275820470/photo/space-background-colorful-fractal-nebula-with-planet-and-asteroid.jpg?b=1&s=170667a&w=0&k=20&c=0_44aXox1p6EyHqnmmkEBI412K2rqWSpNqBJbxFAhz8=);
+
+            color: rgb(249, 248, 248);
+            font-size: large;
+            font-family: sans-serif;
+            border: 2px solid rgb(12, 12, 158);
+            /* transform: rotate(360deg); */
+            transform: scale(1);
+            /* transform:skew(40deg); */
+        }
+
+
+
+        #boxing {
+            float: right;
+            margin: 10px auto;
+            width: 45%;
+        }
+
+        #boxing:hover {
+            background-image: url(https://media.istockphoto.com/id/1006291908/photo/red-boxing-glove.jpg?b=1&s=170667a&w=0&k=20&c=YC_loOKo7DfeG7uwvk-7t2eqLkeUUlnnRfYnp9h19W4=);
+
+        }
+
+        #boxing:hover h3 {
+            display: flex;
+            width: 8em;
+            color: #06ebd4;
+            font-size: 30px;
+            /* border: 2px solid black; */
+            text-align: center;
+            margin: auto;
+            /* background-color: #000000; */
+        }
+
+        #footboll {
+            float: left;
+            width: 96%;
+        }
+
+        #footboll:hover {
+            background-image: url(https://i.pinimg.com/originals/8c/f0/93/8cf093d06bb060ff91770fcec13d2e32.jpg);
+            background-size: 30em;
+
+            color: rgb(254, 247, 247);
+            font-size: 30px;
+            font-family: sans-serif;
+            border: 2px solid rgb(241, 85, 18);
+        }
+
+        #footboll:hover h3 {
+            color: #03efcf;
+            display: flex;
+            width: 10em;
+            text-align: center;
+            margin: auto;
+
+        }
+
+        #footboll:hover a {
+            color: rgb(255, 255, 255);
+            font-size: x-large;
+            text-decoration: none;
+        }
+
+        #footboll:hover a:hover {
+            text-decoration: wavy;
+            color: red;
+        }
+
+        h1 {
+            margin: 20px 8em;
+            color: #dadadb;
+
+        }
+
+        /* after this all about read more  */
+        .jaaan {
+            color: red;
+
+        }
+
+        /* a{ */
+        /* this is used  to remove line */
+        /* text-decoration:none} */
+
+        /* a hover is used for arrow goes on it */
+        a:hover {
+
+            color: red;
+            /* background-color: rgba(203, 138, 17, 0.393); */
+            border-radius: 7px;
+            font-size: large;
+            text-decoration: dotted;
+
+        }
+
+        /* a:visited{ */
+        /* color: white; */
+        /* } */
+        a:active {
+            color: #0509f7;
+        }
+
+        .maan {
+            border: black;
+            color: white;
+            background: #131312;
+            margin: 10px;
+            padding: 2px 10px;
+            /* cursor is used to make arrow inti pointer */
+            cursor: pointer;
+            /* font-size: 10px; */
+            border-radius: 10px;
+        }
+
+        .maan:hover {
+            background-color: #0509f7;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="vinay">
+            <ul>
+                <li> <img src="https://www.pngall.com/wp-content/uploads/12/V-For-Vendetta-Mask-PNG.png" alt="Haker"
+                        class="bholu"></li>
+                <li> <a href="./don.html" target="_blank" class="nitu">Home</a></li>
+                <li> <a href="./doremon.html" target="_blank" class="nitu">About</a> </li>
+                <li> <a href="jay.html" target="_blank" class="nitu">Service</a> </li>
+                <li class="bhalu"> <a href="https://google.com" target="_blank" class="nitu"></a> Contact us</li>
+
+
+                <div>
+
+                    <input type="text" name="Search" id="Search" placeholder="For More Curious">>
+
+                </div>
+                <img src="https://cdn.icon-icons.com/icons2/2066/PNG/512/search_icon_125165.png" alt="search icon"
+                    class="jat">
+
+            </ul>
+
+        </nav>
+
+    </header>
+    <div id="vineet">
+        <div class="jaat">
+            <h1>PHYSICAL EDUCATION</h1>
+            <div id="circket" class="player">
+                <h3>CIRCKET SPORT</h3>
+                <p id="circketpara" class="games">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+                    cupiditate quae inventore repellat. Illo, quis voluptate. Iste, iusto tempore doloremque cupiditate
+                    dolorem debitis Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod obcaecati voluptatum
+                    saepe assumenda culpa molestias! Nisi reiciendis fuga ratione temporibus vero assumenda nobis, cum,
+                    eaque ipsam, accusantium sapiente. Perferendis inventore eveniet sed asperiores quasi!
+
+
+            </div>
+
+            <div id="boxing" class="player">
+                <h3 class="box">BOXING SPORT</h3>
+                <p id="circketpara" class="games">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis sed
+                    officiis unde rerum nulla reprehenderit, itaque esse eos eius iure! Explicabo ipsa facilis
+                    temporibusquos autem fugit vel iure quam Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Aspernatur, quasi. Aliquid voluptas consequuntur a optio est labore id neque fugit repellendus?
+                    Cupiditate facere fugiat numquam reiciendis reprehenderit provident, rerum totam voluptatum quaerat
+                    iusto necessitatibus?.
+            </div>
+
+
+            <div id="footboll" class="player">
+                <h3>FOOTBOLL SPORT</h3>
+                <p id="circketpara" class="games">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis sed
+                    officiis unde rerum nulla reprehenderit, itaque esse eos eius iure! Explicabo ipsa facilis
+                    temporibus
+                    quos autem fugit vel iure quam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nihil
+                    illo, quo maxime explicabo aspernatur! Accusantium, nam! Adipisci dolorem consequatur molestiae
+                    beatae quas molestias debitis quaerat nemo voluptatum temporibus corrupti, officiis aliquam
+                    voluptate repellendus libero porro enim nulla labore? Voluptatibus voluptas natus consequuntur,
+                    atque fugiat quod ad corporis exercitationem non.
+                </p>
+                <a href="https://www.wikipedia.org/" target="_blank" class="jaaan">Read more</a>
+                <button class="maan">Contact</button>
+
+            </div>
+            <div>
+
+
+
+            </div>
+
+
+        </div>
+    </div>
+</body>
+
+</html>
