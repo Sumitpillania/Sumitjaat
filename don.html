@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script>
+        function sendEmail() {
+            Email.send({
+                Host: "smtp.gmail.com",
+                Username: "sumitpillania950@gmail.com",
+                Password: "20030523&",
+                To: 'sumitpillania950@gmail.com',
+                From: document.getElementById("email").value,
+                Subject: "Sumit Website mail",
+                Body: "And this is the body"
+            }).then(
+                message => alert(message)
+            );
+        }
+    </script>
+    <!-- <link rel="stylesheet" href="phone.css"important> -->
+    <title>haker</title>
+
+    <style>
+        body {
+            /* font-family:Georgia, 'Times New Roman', Times, serif ; */
+            color: white;
+            background-image: url(".//haker\ background.jpg");
+
+            height: 800px;
+
+            text-align: center;
+        }
+
+
+
+        .vinay {
+            /* border: 2px solid red; */
+            position: fixed;
+
+        }
+
+        .vinay img {
+            display: block;
+            width: 60px;
+            filter: invert(100%);
+        }
+
+        .vinay h1 {
+            font-size: 15px;
+            margin: 0px;
+            font-style: oblique;
+            font-weight: bold;
+        }
+
+        /* simut and sumit li is redisien becouse all is delete by me */
+
+
+        .sumit ul {
+            display: inline-block;
+        }
+
+        .sumit ul li {
+            display: inline-block;
+            font-size: 25px;
+            /* list-style: none;
+    font-size: 2em; */
+        }
+
+
+        .sumit li a {
+            color: white;
+            text-decoration: none;
+            padding: 34px 23px;
+            /* display: block;
+    color: white;
+    list-style: none;
+    padding: 17px 89px;
+    margin: 3px 4px; */
+
+
+            /* padding: 10px 20px; */
+            /* margin: 10px 15px; */
+            font-size: 27px;
+            text-decoration: none;
+        }
+
+        .sumit li a:hover {
+            color: rgb(255, 14, 54);
+            text-decoration: underline;
+        }
+
+        /* .sumit li a:visited{ */
+        /* color: brown; */
+        /* text-decoration: underline; */
+        /* } */
+        .nitu {
+            /* border: 2px solid yellow; */
+
+            position: absolute;
+            right: 20px;
+            top: 20px;
+
+            display: inline-block;
+        }
+
+        .nitu button {
+            border: 2px solid black;
+            border-radius: 10px;
+            cursor: pointer;
+            background-color: rgb(221, 235, 234);
+            font-size: 14px;
+        }
+
+        .nitu button:hover {
+            color: white;
+            background-color: brown;
+        }
+
+        .golu {
+            /* border:2px solid red; */
+            margin: 10em auto;
+            padding: 20px;
+            width: 360px;
+            font-size: large;
+        }
+
+        .golu h1 {
+            display: block;
+            width: 160px;
+            margin: 10px auto;
+        }
+
+        .golu input {
+            display: block;
+            width: 40%;
+            height: 24PX;
+            text-align: center;
+            margin: 10px auto;
+            border-radius: 10px;
+        }
+
+        .golu input:hover {
+            display: flex;
+            font-size: larger;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-style: oblique;
+            height: 30px;
+            width: 200px;
+            border: 2px solid violet;
+            border-radius: 10%;
+        }
+
+        .golu button {
+            display: block;
+            margin: 10px auto;
+            color: white;
+            background-color: black;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+
+        .golu button:hover {
+            color: red;
+
+            background-color: aqua;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: red;
+            image-rendering: crisp-edges;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div class="vinay">
+            <a href="https://google.com" target="_blank">
+                <img src="./haker profile.jpg" alt="haker">
+                <h1>HACKER</h1>
+            </a>
+        </div>
+        <div class="sumit">
+            <ul>
+                <li><a href="https://google.com" target="_blank">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Content us</a></li>
+            </ul>
+        </div>
+        <div class="nitu">
+            <button>More Curious</button>
+            <button>Email</button>
+
+        </div>
+
+    </header>
+    <form onsubmit="sendEmail(); reset(); return false;" action="#" class="golu">
+        <h1>For Login </h1>
+        <input type="text" name="your name" placeholder="Enter Your Id">
+        <input type="password" name="your name" placeholder="Enter Your password">
+        <!-- <input type="text" name="your name" placeholder="Enter Your Gender"> -->
+        <!-- <input type="text" name="your name" placeholder="Enter Your Addres"> -->
+        <button>Login</button>
+
+
+    </form>
+</body>
+
+</html>
